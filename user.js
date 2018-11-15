@@ -5,8 +5,10 @@ function User(tracker, torrent){
   let myTorrent = torrent;
 
   //Type all of your code in here.
-
-
-
+function numOfSeeds()
+function addSeed()
+function removeSeed()
+function reportHealth()
+function Update()
 
 }
