@@ -16,7 +16,7 @@ return fileSize/50;
 }
 
 //second function
-function buildTorrentPacketArray(numbOfPackets){
+function buildTorrentPacketArray(numOfPackets){
   return i
 
 
