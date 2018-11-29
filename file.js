@@ -1,29 +1,26 @@
 //type your code inside this function
 function TorrentFile(){
-let list =[];
-let length;
-for (let i=0; i<length; i++){ 
-  list [i]=i;
 
-}
-
-
-}
 //first function
 function numberOfPackets(fileSize){
-return fileSize/50;
-
+    
+    return fileSize/50
 }
+
+
+
 
 //second function
-function buildTorrentPacketArray(numOfPackets){
-  return i
-
-
-
-
+    function buildTorrentPacketArray(numberOfPackets){
+        let list=[];
+            
+        for(let i=0; i < numberOfPackets; i++){
+            list [i]= 1;
+        }
+    return list
+    }
 }
 
-
-
-//main test methods.////////////
+//main test methods
+console.log(numberOfPackets(1000))
+console.log(buildTorrentPacketArray(20))
